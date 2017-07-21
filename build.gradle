@@ -1,5 +1,4 @@
 plugins {
-    // id 'java'
     id 'com.gradle.plugin-publish' version '0.9.7' 
 }
 
@@ -15,13 +14,9 @@ pluginBundle {
           id = 'net.hiease.eva' 
           displayName = 'rapid development invironment' 
           description = 'development applications quickly and easily' 
-          tags = ['individual', 'tags', 'per', 'plugin'] 
-        //   version = '1.4' 
+          tags = ['springboot', 'angular', 'codegen', 'plugin'] 
       }
   }
 }
 
-// group = 'net.hiease.eva'
-version = '0.3'
-// apply plugin: "com.gradle.plugin-publish"
-// apply plugin: "net.hiease.eva"
+version = '0.4'
