@@ -1,0 +1,27 @@
+plugins {
+    // id 'java'
+    id 'com.gradle.plugin-publish' version '0.9.7' 
+}
+
+dependencies {
+    compile gradleApi()
+}
+
+pluginBundle { 
+    website = 'http://hiease.net' 
+    vcsUrl = 'https://github.com/hiease/eap-gradle-plugin' 
+    plugins { 
+      greetingPlugin {  
+          id = 'net.hiease.eva' 
+          displayName = 'rapid development invironment' 
+          description = 'development applications quickly and easily' 
+          tags = ['individual', 'tags', 'per', 'plugin'] 
+        //   version = '1.4' 
+      }
+  }
+}
+
+// group = 'net.hiease.eva'
+version = '0.3'
+// apply plugin: "com.gradle.plugin-publish"
+// apply plugin: "net.hiease.eva"
