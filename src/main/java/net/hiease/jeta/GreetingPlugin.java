@@ -1,4 +1,4 @@
-package net.hiease.eva;
+package net.hiease.jeta;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;

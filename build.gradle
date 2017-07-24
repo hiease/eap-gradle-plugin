@@ -19,4 +19,14 @@ pluginBundle {
   }
 }
 
+group 'net.hiease.jeta'
+archivesBaseName = 'jeta-gradle-plugin'
 version = '0.4'
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: 'file:./lib')
+    }
+}

@@ -1,2 +1,4 @@
 /build/
 /.gradle/
+/lib/
+/src/test/.gradle/

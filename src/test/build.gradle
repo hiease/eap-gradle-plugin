@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        maven {
+            url 'file:../../lib'
+        } }
+    dependencies {
+        classpath("net.hiease.jeta:jeta-gradle-plugin:0.4") 
+    }
+}
+
+apply plugin: 'net.hiease.jeta'
